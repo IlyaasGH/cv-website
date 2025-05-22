@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahamed Ilyaas | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 0;
+      position: relative;
+    }
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .header-content img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .header-text h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .header-text p {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .resume-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: orange;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .resume-button:hover {
+      background-color: darkorange;
+    }
+    nav {
+      text-align: center;
+      background: #333;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+    }
+    h2 {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      .header-content {
+        flex-direction: column;
+      }
+      .header-text h1 {
+        font-size: 1.5rem;
+      }
+      .header-text p {
+        font-size: 0.9rem;
+      }
+      .resume-button {
+        position: static;
+        display: block;
+        width: fit-content;
+        margin: 1rem auto 0 auto;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="resume/Ahamed_Ilyaas_Modern_CV.pdf" class="resume-button" download>Download Resume</a>
+    <div class="header-content">
+      <img src="image/0000.png" alt="Ahamed Ilyaas" />
+      <div class="header-text">
+        <h1>Ahamed Ilyaas</h1>
+        <p>Virtual Assistant | Web Developer in Training</p>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a tech-savvy Virtual Assistant and a web developer in training, currently pursuing my Higher Diploma in Software Engineering through ICBT Campus in partnership with Cardiff Metropolitan University, UK. I bring 1+ year of experience in technical support and admin roles. I'm reliable, hardworking, and always eager to learn and take on new challenges.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Higher Diploma in Software Engineering</strong> (Ongoing) – ICBT Campus (Cardiff Metropolitan University UK partner)</li>
+        <li><strong>Advanced Level (Commerce Stream)</strong> – JMC College International (Passed in 2022)</li>
+        <li><strong>Ordinary Level</strong> – JMC College International (Passed in 2019)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website</strong> - Personal site built with HTML and CSS.</li>
+        <li><strong>Basic Business Website</strong> - Static site demo for a local client (practice).</li>
+        <li><strong>POS Technical Support</strong> - Worked with My POS Software Solutions to support retail clients.</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Associate Technical Support Executive</strong> – My POS Software Solutions (Pvt) Ltd (Aug 2023 – Oct 2024)<br>
+          - Provided technical and software support for retail systems.<br>
+          - Managed system updates, troubleshooting, and user support.
+        </li>
+        <li><strong>Stores Assistant</strong> – Luqman Printers (Pvt) Ltd (Mar 2023 – Aug 2023)<br>
+          - Handled inventory, delivery coordination, and admin tasks.
+        </li>
+      </ul>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Admin and tech support (emails, inventory, reports)</li>
+        <li>Data entry and research</li>
+        <li>Website updates and content posting (HTML, WordPress)</li>
+        <li>Basic coding and database support (Java, MySQL)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>📍 Address: 174/32/1 IDH Rd, Salamulla, Kolonnawa</p>
+      <p>📞 Phone: 0760010844</p>
+      <p>✉️ Email: <a href="mailto:mrrilyaas@gmail.com">mrrilyaas@gmail.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ahamed Ilyaas. All rights reserved.</p>
+  </footer>
+</body>
+</html>
